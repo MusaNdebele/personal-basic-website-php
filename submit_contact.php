@@ -43,14 +43,13 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
     //Executes the query and shows a success or error message
     if ($stmt->execute()) {
-        echo "Message sent successfully!";
+        header("Location: contact.php?status=success");
+        exit;
     } else {
-        echo "Something went wrong. Please try again.";
+        header("Location: contact.php?status=error");
+        exit;
     }
 
-    if ($stmt->execute()) {
-        header("Location: contact.php?status=success");
-    }
     //Closes the statement and database connection to free up resources
     $stmt->close();
     $conn->close();

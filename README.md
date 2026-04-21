@@ -2,13 +2,17 @@
 
 A basic full-stack website built as part of my software engineering studies. It includes a multi-page layout and a working contact form that stores submissions in a MySQL database.
 
-## Tech Stack ##
+## Tech Stack 
 
-- **Frontend:** HTML5, CSS3, JavaScript
-- **Backend:** PHP 8
-- **Database:** MySQL (via XAMPP / phpMyAdmin)
+- <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white" alt="HTML5">
+- <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white" alt="CSS3">
+- <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black" alt="JavaScript">
+- <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&amp;logo=php&amp;logoColor=white" alt="PHP">
+- <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&amp;logo=mysql&amp;logoColor=white" alt="MySQL">
+- <img src="https://img.shields.io/badge/XAMPP-FB7A24?style=for-the-badge&amp;logo=xampp&amp;logoColor=white" alt="XAMPP">
+- <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white" alt="GitHub">
 
-## Features ##
+## Features 
 
 - Multi-page site: Home, About, Contact
 - Contact form with client-side and server-side validation
@@ -18,10 +22,10 @@ A basic full-stack website built as part of my software engineering studies. It 
 
 # How to Run Locally #
 
-## Prerequisites ##
+## Prerequisites 
 - [XAMPP](https://www.apachefriends.org/) (Apache + MySQL)
 
-## Steps ##
+## Steps 
 
 1. Clone this repository into your XAMPP `htdocs` folder:
    ```bash
