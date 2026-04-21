@@ -29,7 +29,7 @@ A basic full-stack website built as part of my software engineering studies. It 
 
 1. Clone this repository into your XAMPP `htdocs` folder:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git C:/xampp/htdocs/WebSite
+   git clone https://github.com/musandebele/personal-basic-website-php.git C:/xampp/htdocs/WebSite
    ```
 2. Start Apache and MySQL in the XAMPP Control Panel.
 3. Open phpMyAdmin and create a database called website_db.
